@@ -12,9 +12,9 @@ https://www.jetbrains.com/es-es/clion/
 ## Tabla de contenidos
 1. **INTRODUCCIÓN:**
   - Conceptos básicos sobre C++
-  - Unidad Entrada\Salida (cin\cout)
   - Lenguajes y Paradigmas de Programación
   - Sistema Operativo && Compilador
+  - Unidad Entrada\Salida (cin\cout)
   - Primer programa && Estructura del programa (hello world)
 2. **ALGORITMOS:**
   - Concepto de Algoritmos y Trazas
