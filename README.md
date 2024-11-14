@@ -27,7 +27,7 @@ https://www.jetbrains.com/es-es/clion/
   - Introducción a condiciones (IF ELSE, SWITCH)
   - Introducción a bucles (FOR, WHILE, DO WHILE)
   - Primeros programas usando condiciones y bucles
-4. ** FUNCIONES:**
+4. **FUNCIONES:**
   - Introducción a Funciones
   - Declaración de funciones
   - Comentarios eficaces && Código limpio (doxygen)
