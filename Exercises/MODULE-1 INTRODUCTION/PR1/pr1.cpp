@@ -1,0 +1,1 @@
+// no pienso ejecutar esa mierda de código --> es fácil y solo con leer se hace, no hay ejercicios.
