@@ -11,8 +11,9 @@ int main(void) {
     cin >> letra2;
     cin >> letra3;
 
+
     cout << "las letras elegidas son: ";
-    cout << letra1 << letra2 << letra3; 
+    cout << letra1 <<" " << " " << letra2<< " " << letra3;
 
     return 0;
 }

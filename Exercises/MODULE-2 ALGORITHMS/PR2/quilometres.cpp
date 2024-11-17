@@ -14,7 +14,7 @@ int main(void) {
     cout << "Dame los kilometros: "; 
     cin >> kilometros;
 
-    int millas = kilometros * MILLA;
+    float millas = kilometros * MILLA;
 
     cout << "Tus kilometros en millas son: " << millas << " millas\n";
 
