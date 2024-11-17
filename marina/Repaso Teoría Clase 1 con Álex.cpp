@@ -102,9 +102,8 @@ Operadores normales
 suma (+)
 resta (-) que también se usa para cambiar el signo de algo
 producto (*)
-potencia (**)
 división (/)
-mòdul (%) [o es \ ??? ] devuelve el resto de la división entera entre dos valores EN ENTEROS
+mòdul (%) devuelve el resto de la división entera entre dos valores EN ENTEROS
 
 decrement (--): resta uno a la variable sobre la que se aplica (variables enteros i carécter).
 increment (++): suma uno a la variable sobre la que se aplica (variables enteros i carécter).
@@ -131,9 +130,3 @@ Operaciones compuestos
 ---------------------------------------------------------------------------------------------------------------------------------
 
 /* estructuras de condición, ns cómo se llaman */
-
-hay dos principales 
-
-IF 
-
-if ()
