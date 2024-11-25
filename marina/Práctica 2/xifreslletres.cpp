@@ -1,6 +1,5 @@
 //
 // Created by marin on 17/11/2024.
-
 /*[LletresXifres.cpp] Escriu un programa que llija 5 parells de valors formats per un caràcter i un
 nombre real separats per una coma (per exemple: A,65.4) i els mostre per pantalla segons la següent
 organització:*/
