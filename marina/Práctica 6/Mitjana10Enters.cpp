@@ -7,31 +7,30 @@
 #include <iostream>
 using namespace std;
 
-int LlenaVector (void) {
-    int i, TAM;
-    TAM = 10;
-    int vector[TAM];
+void LlenaVector (int vector[], int TAM = 10) {
 
-    for (i=0 ; i <= TAM ; i++){
-        cout << "Introduzca el valor de la posicion numero" << i + 1 << "del vector" << endl;
+    for (int i=0 ; i <= TAM-1 ; i++){
+        cout << "Introduzca el valor de la posicion numero " << i + 1 << " del vector" << endl;
         cin >> vector[i];
     }
-
-    return vector[TAM];
-
 }
 
-float MitjanaElements (int vector[]){
-  int i, TAM;
-  float mitjana;
-  mitjana = 0;
-  TAM = 10;
+// al copiar en otro programma, llamar MitjanaElements
+int main (){
+  int TAM = 10;
+  int vector[TAM];
+  float mitjana = 0;
 
-  for ( i=0 ; i <= TAM-1 ; i++){
+  LlenaVector(vector, TAM);
+
+  for (int i=0 ; i <= TAM-1 ; i++){
     mitjana = mitjana + vector[i];
   }
 
   mitjana = mitjana / TAM;
 
-  return mitjana;
+  cout << "La mitjana es: " << mitjana;
+
+  return 0;
 }
+
