@@ -20,7 +20,7 @@ int main (void) {
   cin >> y; // exponente de la potencia
 
   while (i < y) {
-    res = res * x;
+    res = res * x; //  res *= x
     i = i + 1; // o  lo que es lo mismo, i++;
     }
 

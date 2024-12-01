@@ -16,7 +16,7 @@ int main(void)
     cin >> n;
 
     while (n != 0){
-        for (i = 1;i<=10;i++) {
+        for (i = 1 ; i<=10 ; i++) {
             cout << i << " x " << n << " = " << i*n << endl;
         }
         cout << "Dona'm un nombre n positiu perquè faça la seua taula de multiplicar. Prem 0 per parar.\n";

@@ -7,9 +7,8 @@ sumatori d'i al quadrat des d'1 fins a N
 #include <iostream>
 using namespace std;
 
-int main(void) {
-    int n, i, res;
-    res = 0;
+int main() {
+    int n, i, res = 0;
 
     cout << "Escriba un número n para que haga el sumatorio de i al cuadrado desde 1 a n" << endl;
     cin >> n;

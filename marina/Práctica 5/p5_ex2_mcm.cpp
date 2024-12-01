@@ -10,7 +10,7 @@ l’algorisme d’Euclides ja que cal recordar que:
 using namespace std;
 
 //  función por valor que calcula el mcd
-int funcion_mcd (int a, int b) {
+int funcion_mcm (int a, int b) {
   while (a != b) {
     if ( a > b ) {
       a = a - b;
@@ -24,6 +24,7 @@ int funcion_mcd (int a, int b) {
 //procedimiento que lee un número y lo pasa por referencia si es positivo o 0
 void procedimiento_leer (int & x) {
   do {
+    cout << "Dame un numero: ";
     cin >> x;
   } while (x <= 0);
 }
@@ -38,10 +39,10 @@ int main (void) {
 
   if (n >= 2) {
     procedimiento_leer(a);
-    i = 1;
+    i = 2;
     do {
       procedimiento_leer (b);
-      a = funcion_mcd (a, b);
+      a = funcion_mcm (a, b);
       i = i + 1;
     } while (i <= n);
 

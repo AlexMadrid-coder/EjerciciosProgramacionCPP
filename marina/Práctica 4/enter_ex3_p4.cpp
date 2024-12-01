@@ -3,25 +3,31 @@
 //
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
-    int p, i;
+    int p;
+    string res = "";
 
     cout << "Introdueix un nombre enter: ";
     cin >> p;
 
    if (p <= 1) {
-        cout << "No és primer" << endl;  // si es menor o = a 1 no es primo
+
+       res = "No es primer";  // si es menor o = a 1 no es primo
     } else {
         for (int i = 2; i*i <= p; i++) {
             if (p % i == 0) {
-                cout << "No és primer" << endl;  // Si es divideix exactament per qualsevol nombre, no és primer
+                res = "No es primer";  // Si es divideix exactament per qualsevol nombre, no és primer
                 break;
             } else
-              cout << "és primer." << endl;
+                res = "Es primer";
+
         }
     }
+
+    cout << res << endl;
 
     return 0;
 }

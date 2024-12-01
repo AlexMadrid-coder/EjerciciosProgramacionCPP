@@ -9,13 +9,13 @@ prohibida introduïda per l’usuari en una frase i les reemplace per la cadena 
 
 #include <iostream>
 #include <string>
-
+#include <vector>
 using namespace std;
 
 
 int BuscarSubstituir(string & frase, string parprohibit) {
 
-    int posicio = 0, aparicions = 0; // Inicialitzem el comptador i la posició
+    int posicio = 0; // Inicialitzem el comptador i la posició
 
      posicio = frase.find(parprohibit, posicio);
     // un frase.find devuelve la posicion donde hay algo, es decir, un entero
@@ -27,7 +27,7 @@ int BuscarSubstituir(string & frase, string parprohibit) {
 
     posicio = posicio + parprohibit.length(); // Avancem la posició després de la substitució
 
-    return aparicions;
+    return 0;
 }
 
 
